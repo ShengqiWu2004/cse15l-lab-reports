@@ -39,6 +39,7 @@ ls<path>
 ```
 
 "List" Used to list the files and folders the given path. Thus, ls <home/linux/ieng6/cs15lwi23/cs15lwi23ahr> means listing all the folders and files in the given path.
+You can check out https://www.inmotionhosting.com/support/server/linux/ls-command/ for more specific ls commands
 
 ```
 cp
@@ -46,6 +47,12 @@ cp
 
 Cp means making a copy of the file.
 cp “filename” “newfilename” this command copies the content in the "filename" into a new file called "newfilename"
+
+```
+cat <path1><path2>
+```
+
+"Concatenate" Used to print the contents of one or more files given by the paths
 The following picture is the screenshot for most of the commands
 
 <img width="961" alt="截屏2023-01-12 下午1 17 59" src="https://user-images.githubusercontent.com/114774291/212183670-5c8707eb-c506-4a9f-9860-21bdd2c66a99.png">
