@@ -6,11 +6,12 @@ First, go to https://code.visualstudio.com/ ,and select the version that fits yo
 
 #### Task2: Remotely Control
 
-Frist you should open the terminal on the MacBook, and copy the command down here, remember to change zz to your specific 15L account, then the thing will be shown like the following picture.
-<img width="964" alt="截屏2023-01-12 下午1 17 34" src="https://user-images.githubusercontent.com/114774291/212183342-8e9bb226-937e-4e37-809b-4ebd840002ef.png">
+First you should open the terminal on the MacBook, and copy the command down here, remember to change zz to your specific 15L account, then the thing will be shown like the following picture.
 ```terminal
 $ ssh cs15lwi23zz@ieng6.ucsd.edu
 ```
+<img width="964" alt="截屏2023-01-12 下午1 17 34" src="https://user-images.githubusercontent.com/114774291/212183342-8e9bb226-937e-4e37-809b-4ebd840002ef.png">
+
 
 Second, type **yes** and then you will get to the step that requires you to enter the password.
 
