@@ -30,7 +30,9 @@ After successfully entered the password, the terminal should look like the pictu
 cd
 ```
 
-The command "cd" means change directory
+The command "cd" means change directory.
+``cd``takes in the path to the specific directory, which includes relative path and absolute path.
+For instance, you can try out the cd command with 
 
 ```
 ls<path>
@@ -43,6 +45,7 @@ cp
 ```
 
 Cp means making a copy of the file.
+cp “filename” “newfilename” this command copies the content in the "filename" into a new file called "newfilename"
 The following picture is the screenshot for most of the commands
 
 <img width="961" alt="截屏2023-01-12 下午1 17 59" src="https://user-images.githubusercontent.com/114774291/212183670-5c8707eb-c506-4a9f-9860-21bdd2c66a99.png">
