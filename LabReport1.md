@@ -32,7 +32,7 @@ cd
 
 The command "cd" means change directory.
 ``cd``takes in the path to the specific directory, which includes relative path and absolute path.
-For instance, you can try out the cd command with 
+For instance, you can try out the cd command with ``cd ~`` or ``cd ..``, where "~" means home directory and ".." means the previous folder
 
 ```
 ls<path>
