@@ -1,7 +1,7 @@
 # cse15l-lab-reports
 #### Task1: Installing VScode
 
-First, go to https://code.visualstudio.com/ ,and select the version that fits your computer!
+First, go to <https://code.visualstudio.com/> ,and select the version that fits your computer!
 <img width="958" alt="截屏2023-01-12 下午1 17 27" src="https://user-images.githubusercontent.com/114774291/212183291-84968983-3280-4538-af9f-eb37f1cdd8a2.png">
 
 #### Task2: Remotely Control
@@ -17,7 +17,7 @@ Second, type **yes** and then you will get to the step that requires you to ente
 
 <img width="957" alt="截屏2023-01-12 下午1 17 42" src="https://user-images.githubusercontent.com/114774291/212183429-bbecd516-ef91-470b-8f67-f60b97ddcae1.png">
 
-When you are entering the password, the password is not shown in the terminal for security reasons. You may need to go to https://sdacs.ucsd.edu/~icc/index.php to view your own account and change the password. When changing, you need to press Enter instead of the button "Check Password."
+When you are entering the password, the password is not shown in the terminal for security reasons. You may need to go to <https://sdacs.ucsd.edu/~icc/index.php> to view your own account and change the password. When changing, you need to press Enter instead of the button "Check Password."
 
 After successfully entered the password, the terminal should look like the picture below
 
@@ -39,7 +39,7 @@ ls<path>
 ```
 
 "List" Used to list the files and folders the given path. Thus, ls <home/linux/ieng6/cs15lwi23/cs15lwi23ahr> means listing all the folders and files in the given path.
-You can check out https://www.inmotionhosting.com/support/server/linux/ls-command/ for more specific ls commands
+You can check out <https://www.inmotionhosting.com/support/server/linux/ls-command/> for more specific ls commands
 -	Indicates a file does not have extended security information. And 
 
 ```
