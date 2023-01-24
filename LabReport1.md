@@ -40,6 +40,7 @@ ls<path>
 
 "List" Used to list the files and folders the given path. Thus, ls <home/linux/ieng6/cs15lwi23/cs15lwi23ahr> means listing all the folders and files in the given path.
 You can check out https://www.inmotionhosting.com/support/server/linux/ls-command/ for more specific ls commands
+-	Indicates a file does not have extended security information. And 
 
 ```
 cp
