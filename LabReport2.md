@@ -1,5 +1,5 @@
 # CSE15L LabReport 2
-
+##### Shengqi Wu	<https://shengqiwu2004.github.io/cse15l-lab-reports/LabReport2.html>
 ### Part 1
 
 Here is my code of StringServer
@@ -59,7 +59,7 @@ class StringServer {
 <img width="437" alt="截屏2023-01-26 下午12 23 49" src="https://user-images.githubusercontent.com/114774291/214945100-f863c784-40c0-4271-a7f9-3d9cb9b2f723.png">
 
 
-In this picture, it called ``main`` method and ``handleRequest`` method.First, the ``URI url`` is changed into <https://localhost://8080/add?=Hello>. Since we're adding things, the code segment inside ``if (url.getPath().contains("/add"))``is called. ``port`` is changed into ``8080`` , ``parameters[1]``was changed into "hello", a String "hello" is added into ``messages`` , and then the value of output is changed.
+In this picture, it called ``main`` method and ``handleRequest`` method.First, the ``URI url`` is changed into <https://localhost://8080/add?=Hello>. Since we're adding things, the code segment inside ``if (url.getPath().contains("/add"))``is called. ``port`` is changed into ``8080`` , ``parameters[1]``was changed into "hello", a String "hello" is added into ``messages``, and then the value of output is changed.
 
 <img width="627" alt="截屏2023-01-26 下午12 24 10" src="https://user-images.githubusercontent.com/114774291/214945122-a622cd40-ccd8-44c3-9753-567f6c05e4c8.png">
 
