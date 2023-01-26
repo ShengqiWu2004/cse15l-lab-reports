@@ -70,3 +70,67 @@ In this picture, it called ``main`` method and ``handleRequest`` method. First, 
 
 
 In this picture, ``main`` method and ``handleRequest`` method are called. First, the ``URI url`` is changed into <https://localhost://8080/>. since there is only ``/``after ``8080``, we are callling the the code segment inside ``if (url.getPath().equals("/")) `` the value of ``output`` is changed.
+
+### Part 2
+
+I choose the bug inside ``ArrayExample.reverse()``
+
+#### Failure-inducing input
+
+``````java
+@Test
+  public void normalArrReversed(){
+    int[] normalArr = {1, 2, 3, 4, 5};
+    int[] reversed = {5, 4, 3, 2, 1};
+    assertArrayEquals(reversed, ArrayExamples.reversed(normalArr));
+  }
+``````
+
+#### No-Failure input
+
+``````java
+@Test
+  public void testZeroArr(){
+    int[] zeroArr = {0,0,0};
+    assertArrayEquals(zeroArr, ArrayExamples.reversed(zeroArr));
+  }
+``````
+
+#### output of running the tests
+
+<img width="1008" alt="截屏2023-01-26 下午1 11 00" src="https://user-images.githubusercontent.com/114774291/214951616-385d2536-0775-47ac-bb97-c5a333c0be86.png">
+
+
+#### Before- and after- code
+
+The following is the before-code of the bug
+
+``````java
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+``````
+
+Reasoning: because the funtion aims at returning an array that is the reversed ``arr``, the code segment already created a new array ``newArrary``that stores the reversed version of ``arr``; however the returning value is still arr. Thus, we should change ``return arr`` into ``return newArray``.
+
+Thus, the following is the after-code of the bug
+
+``````java
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return newArray;
+  }
+``````
+
+
