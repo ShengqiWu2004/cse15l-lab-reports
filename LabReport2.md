@@ -117,7 +117,7 @@ The following is the before-code of the bug
   }
 ``````
 
-Reasoning: because the funtion aims at returning an array that is the reversed ``arr``, the code segment already created a new array ``newArrary``that stores the reversed version of ``arr``; however the returning value is still arr. Thus, we should change ``return arr`` into ``return newArray``.
+Reasoning: because the funtion aims at returning an array that is the reversed ``arr``, the code segment already created a new array ``newArrary``that stores the reversed version of ``arr``; however the returning value is still arr. Thus, we should change ``return arr`` into ``return newArray``. Also, in the before-code, ``arr[i] = newArray[arr.length - i - 1]`` is giving the value of newArray to arr, which contradicts our intention to create a new arry ``newArray``. Thus, we should change it into ``newArray[arr.length - i - 1] = arr[i];``.
 
 Thus, the following is the after-code of the bug
 
