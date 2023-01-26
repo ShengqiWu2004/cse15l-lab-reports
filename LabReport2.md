@@ -133,4 +133,6 @@ Thus, the following is the after-code of the bug
   }
 ``````
 
+### Part 3
 
+I learned how to make Web Server in my own computer. By implement ``SearchEngine.java`` and ``StringServer.java``, I gained a preliminay understanding of implementing web server . Also I learned how to use terminal to run ``JUnit``, and how to write testCases. I saw the different symptoms corresponding to various bugs. Furthermore, I also learned to fork a repository and download the code to the computer from ``github``.
