@@ -1,3 +1,2 @@
 Hello CSE15L!
-**THis is the line that is bolded**
-*This is the line Ialic*
+Please type down the specific html path to view the labReports
