@@ -47,7 +47,7 @@ In this picture, we are trying out the ``-c`` command with another specified pat
 
 ### -w option
 
-``-w`` helps math the whole word rather than the word that partly contains the pattern
+``-w` helps math the whole word rather than the word that partly contains the pattern
 
 
 ````terminal
