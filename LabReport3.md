@@ -28,6 +28,7 @@ grep -h pattern <<fileName>>
 ````
 <img width="570" alt="截屏2023-02-09 下午1 38 56" src="https://user-images.githubusercontent.com/114774291/217946304-1419c2ad-d235-41cb-b239-128d1dd78e7b.png">
 In this picture, we are trying the option ``-h`` and we can see that it printed out all the **matched lines** with the pattern without printing out the filename.
+
 <img width="571" alt="截屏2023-02-09 下午1 48 11" src="https://user-images.githubusercontent.com/114774291/217947385-d5af4e8b-5fa5-4152-beb5-b9cbeaacd62e.png">
 In this picture, we are trying another specified pattern ``Rocha``, and we can see that, as we expected, it prints out the lines that contained the specified pattern
 
