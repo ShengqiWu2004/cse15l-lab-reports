@@ -59,6 +59,7 @@ grep -w pattern <<fileName>>
 In this picture, we both tried the pattern ``Vist`` and ``Vista``. Because there are no whole word that is the exactly same as "Vist" so we're not printing out anything. However, when we are trying pattern ``Vista`` because we know that it contains words exactly the same as "Vista",results are printed out this time.
 
 <img width="568" alt="截屏2023-02-09 下午2 25 05" src="https://user-images.githubusercontent.com/114774291/217953598-e851df69-2479-49ab-b260-279b0bb6b484.png">
+
 We can use the picture above to compare the result of this command without ``-w`` option with the result with ``-w`` option. We can see that because there is no **whole word** limitation, it printed out something rather than nothing. So in this comparison, we can see that the ``-w`` constraints the result to only the whole words that contain the pattern.
 
 <img width="569" alt="截屏2023-02-09 下午2 34 23" src="https://user-images.githubusercontent.com/114774291/217954578-9c9b4876-67b6-435c-a4a7-0be903579703.png">
