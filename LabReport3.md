@@ -26,6 +26,8 @@ In this picture, I am finding the word "Vista" in the realtive path ``written_2/
 ````terminal
 grep -h pattern <<fileName>>
 ````
+<img width="570" alt="截屏2023-02-09 下午1 38 56" src="https://user-images.githubusercontent.com/114774291/217946304-1419c2ad-d235-41cb-b239-128d1dd78e7b.png">
+In this picture, we are trying the option ``-h`` and we can see that it printed out all the **matched lines** with the pattern without printing out the filename.
 
 
 
@@ -36,6 +38,8 @@ grep -h pattern <<fileName>>
 ``````terminal
 grep -c pattern <<fileName>>
 ``````
+<img width="567" alt="截屏2023-02-09 下午1 40 05" src="https://user-images.githubusercontent.com/114774291/217946344-ea902b66-066a-46b4-8af0-b2eaa3c16ad6.png">
+In this picture we are trying out the ``-c`` option. We can see that it listed all the files in the given relative path and showed the number of matching patterns within the file. For instance, we can see that in ``WhereToGo.txt``, there is 1 matching, which is consistance with the result when we are trying the "-l" command for the same realtive path.
 
 
 
