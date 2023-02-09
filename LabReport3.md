@@ -15,7 +15,8 @@ The most coomand option can be find on <https://www.geeksforgeeks.org/grep-comma
 grep -l pattern <<fileName>>
 ``````
 <img width="568" alt="截屏2023-02-09 下午1 27 40" src="https://user-images.githubusercontent.com/114774291/217943971-862df8d9-fb1d-4bd4-aa50-b4a4b7ef6932.png">
-In this picture, I am finding the word "Vista" in the realtive path ``written_2/travel_guides/berlitz1/*.txt`` and you can see in the result that it only listed the file names rather than the lines that contain the pattern
+In this picture, I am finding the word "Vista" in the realtive path ``written_2/travel_guides/berlitz1/*.txt`` and you can see in the result that it only listed the file names rather than the lines that contain the pattern.
+
 <img width="760" alt="截屏2023-02-09 下午1 29 33" src="https://user-images.githubusercontent.com/114774291/217943990-e4525d14-9549-4b18-aa4e-54fab4d0b8ac.png">
 In this picture, I am finding the word "Vista" in the realtive path ``written_2/travel_guides/berlitz2/*.txt`` and you can see in the result that it only listed the **file names** rather than the lines that contain the pattern.
 
@@ -56,6 +57,7 @@ grep -w pattern <<fileName>>
 ``````
 <img width="567" alt="截屏2023-02-09 下午2 18 41" src="https://user-images.githubusercontent.com/114774291/217952257-32e475e2-24db-4ce9-8b9d-1780fd92a6c7.png">
 In this picture, we both tried the pattern ``Vist`` and ``Vista``. Because there are no whole word that is the exactly same as "Vist" so we're not printing out anything. However, when we are trying pattern ``Vista`` because we know that it contains words exactly the same as "Vista",results are printed out this time.
+
 <img width="568" alt="截屏2023-02-09 下午2 25 05" src="https://user-images.githubusercontent.com/114774291/217953598-e851df69-2479-49ab-b260-279b0bb6b484.png">
 We can use the picture above to compare the result of this command without ``-w`` option with the result with ``-w`` option. We can see that because there is no **whole word** limitation, it printed out something rather than nothing. So in this comparison, we can see that the ``-w`` constraints the result to only the whole words that contain the pattern.
 
