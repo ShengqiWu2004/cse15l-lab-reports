@@ -23,9 +23,9 @@ In this picture, I am finding the word "Vista" in the realtive path ``written_2/
 
 ``-h`` option displays the **matched lines** that contain the pattern without displaying the filename of the content
 
-````terminal
+``````terminal
 grep -h pattern <<fileName>>
-````
+``````
 <img width="570" alt="截屏2023-02-09 下午1 38 56" src="https://user-images.githubusercontent.com/114774291/217946304-1419c2ad-d235-41cb-b239-128d1dd78e7b.png">
 In this picture, we are trying the option ``-h`` and we can see that it printed out all the **matched lines** with the pattern without printing out the filename.
 
@@ -48,11 +48,11 @@ In this picture, we are trying out the ``-c`` command with another specified pat
 
 ### -w option
 
-``-w` helps math the whole word rather than the word that partly contains the pattern
+``-w`` helps math the whole word rather than the word that partly contains the pattern
 
 
-````terminal
+``````terminal
 grep -w pattern <<fileName>>
-````
+``````
 
 
