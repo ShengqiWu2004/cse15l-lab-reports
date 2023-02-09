@@ -55,5 +55,5 @@ In this picture, we are trying out the ``-c`` command with another specified pat
 grep -w pattern <<fileName>>
 ``````
 <img width="567" alt="截屏2023-02-09 下午2 18 41" src="https://user-images.githubusercontent.com/114774291/217952257-32e475e2-24db-4ce9-8b9d-1780fd92a6c7.png">
-
+In this picture, we both tried the pattern ``Vist`` and ``Vista``. Because there are no whole word that is the exactly same as "Vist" so we're not printing out anything. However, when we are trying pattern ``Vista`` because we know that it contains words exactly the same as "Vista",results are printed out this time.
 
