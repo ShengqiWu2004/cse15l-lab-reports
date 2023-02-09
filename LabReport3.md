@@ -28,7 +28,8 @@ grep -h pattern <<fileName>>
 ````
 <img width="570" alt="截屏2023-02-09 下午1 38 56" src="https://user-images.githubusercontent.com/114774291/217946304-1419c2ad-d235-41cb-b239-128d1dd78e7b.png">
 In this picture, we are trying the option ``-h`` and we can see that it printed out all the **matched lines** with the pattern without printing out the filename.
-
+<img width="571" alt="截屏2023-02-09 下午1 48 11" src="https://user-images.githubusercontent.com/114774291/217947385-d5af4e8b-5fa5-4152-beb5-b9cbeaacd62e.png">
+In this picture, we are trying another specified pattern ``Rocha``, and we can see that, as we expected, it prints out the lines that contained the specified pattern
 
 
 ### -c option
@@ -40,7 +41,8 @@ grep -c pattern <<fileName>>
 ``````
 <img width="567" alt="截屏2023-02-09 下午1 40 05" src="https://user-images.githubusercontent.com/114774291/217946344-ea902b66-066a-46b4-8af0-b2eaa3c16ad6.png">
 In this picture we are trying out the ``-c`` option. We can see that it listed all the files in the given relative path and showed the number of matching patterns within the file. For instance, we can see that in ``WhereToGo.txt``, there is 1 matching, which is consistance with the result when we are trying the "-l" command for the same realtive path.
-
+<img width="571" alt="截屏2023-02-09 下午1 47 34" src="https://user-images.githubusercontent.com/114774291/217947345-df99967a-ad50-4764-a1f6-aafda0574cac.png">
+In this picture, we are trying out the ``-c`` command with another specified pattern ``Rocha`` and we can see that it prints out the number of occurance of the word for Rocha in each ``.txt`` file
 
 
 ### -w option
