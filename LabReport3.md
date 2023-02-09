@@ -40,3 +40,10 @@ grep -c pattern <<fileName>>
 ### -w option
 
 ``-w`` helps math the whole word rather than the word that partly contains the pattern
+
+
+````terminal
+grep -w pattern <<fileName>>
+````
+
+
