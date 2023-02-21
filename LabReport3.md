@@ -5,7 +5,6 @@ I choose the ``grep`` command
 
 ``grep`` command is used to **search** a file with particular **pattern**
 
-The most coomand option can be find on <https://www.geeksforgeeks.org/grep-command-in-unixlinux/>
 
 ### -l option
 
@@ -14,13 +13,40 @@ The most coomand option can be find on <https://www.geeksforgeeks.org/grep-comma
 ``````terminal
 grep -l pattern <<fileName>>
 ``````
-<img width="568" alt="截屏2023-02-09 下午1 27 40" src="https://user-images.githubusercontent.com/114774291/217943971-862df8d9-fb1d-4bd4-aa50-b4a4b7ef6932.png">
+``````terminal
+wushengqi@wushengqideMacBook-Pro docsearch-main % grep -l "vista" written_2/travel_guides/berlitz1/*.txt
+written_2/travel_guides/berlitz1/IntroDublin.txt
+written_2/travel_guides/berlitz1/IntroLakeDistrict.txt
+written_2/travel_guides/berlitz1/IntroMadeira.txt
+written_2/travel_guides/berlitz1/WhereToFrance.txt
+written_2/travel_guides/berlitz1/WhereToGreek.txt
+written_2/travel_guides/berlitz1/WhereToIbiza.txt
+written_2/travel_guides/berlitz1/WhereToIsrael.txt
+written_2/travel_guides/berlitz1/WhereToJerusalem.txt
+written_2/travel_guides/berlitz1/WhereToLakeDistrict.txt
+written_2/travel_guides/berlitz1/WhereToMadeira.txt
+``````
 
 In this picture, I am finding the word "Vista" in the realtive path ``written_2/travel_guides/berlitz1/*.txt`` and you can see in the result that it only listed the file names rather than the lines that contain the pattern.
 
-<img width="760" alt="截屏2023-02-09 下午1 29 33" src="https://user-images.githubusercontent.com/114774291/217943990-e4525d14-9549-4b18-aa4e-54fab4d0b8ac.png">
+``````terminal
+grep -l "vista" written_2/travel_guides/berlitz2/*.txt      
+written_2/travel_guides/berlitz2/Athens-WhereToGo.txt
+written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt
+written_2/travel_guides/berlitz2/CanaryIslands-WhereToGo.txt
+written_2/travel_guides/berlitz2/China-WhereToGo.txt
+written_2/travel_guides/berlitz2/Costa-WhereToGo.txt
+written_2/travel_guides/berlitz2/Crete-WhereToGo.txt
+written_2/travel_guides/berlitz2/CstaBlanca-WhereToGo.txt
+written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
+written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt
+written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
+``````
 
 In this picture, I am finding the word "Vista" in the realtive path ``written_2/travel_guides/berlitz2/*.txt`` and you can see in the result that it only listed the **file names** rather than the lines that contain the pattern.
+
+#### When is it useful?
+The option ``grep -l`` is especially useful when we want to find out the **names of the files** containing specific patterns in comparison to ``grep`` which only prints out the lines that contain the pattern without showing the file name.
 
 ### -h option
 
@@ -73,3 +99,6 @@ We can use the picture above to compare the result of this command without ``-w`
 <img width="569" alt="截屏2023-02-09 下午2 34 23" src="https://user-images.githubusercontent.com/114774291/217954578-9c9b4876-67b6-435c-a4a7-0be903579703.png">
 
 In this picture we can see that because there are no whole word that is exactly the same as "abou", it prints out nothing, which is consistant with out expectation.
+
+#### Source cited
+The most coomand option can be find on <https://www.geeksforgeeks.org/grep-command-in-unixlinux/>
