@@ -27,7 +27,7 @@ written_2/travel_guides/berlitz1/WhereToLakeDistrict.txt
 written_2/travel_guides/berlitz1/WhereToMadeira.txt
 ``````
 
-In this picture, I am finding the word "Vista" in the realtive path ``written_2/travel_guides/berlitz1/*.txt`` and you can see in the result that it only listed the file names rather than the lines that contain the pattern.
+In this example, I am finding the word "Vista" in the realtive path ``written_2/travel_guides/berlitz1/*.txt`` and you can see in the result that it only listed the file names rather than the lines that contain the pattern.
 
 ``````terminal
 grep -l "vista" written_2/travel_guides/berlitz2/*.txt      
@@ -43,7 +43,7 @@ written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt
 written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ``````
 
-In this picture, I am finding the word "Vista" in the realtive path ``written_2/travel_guides/berlitz2/*.txt`` and you can see in the result that it only listed the **file names** rather than the lines that contain the pattern.
+In this example, I am finding the word "Vista" in the realtive path ``written_2/travel_guides/berlitz2/*.txt`` and you can see in the result that it only listed the **file names** rather than the lines that contain the pattern.
 
 #### When is it useful?
 The option ``grep -l`` is especially useful when we want to find out the **names of the files** containing specific patterns in comparison to ``grep`` which only prints out the lines that contain the pattern without showing the file name.
@@ -55,14 +55,25 @@ The option ``grep -l`` is especially useful when we want to find out the **names
 ``````terminal
 grep -h pattern <<fileName>>
 ``````
-<img width="570" alt="截屏2023-02-09 下午1 38 56" src="https://user-images.githubusercontent.com/114774291/217946304-1419c2ad-d235-41cb-b239-128d1dd78e7b.png">
+``````terminal
+grep -h "vista" written_2/travel_guides/berlitz2/*.txt
+The Temple of Olympian Zeus is dedicated to Zeus, “king” of the Greek gods. It was imperative that his temple should be fitting for his position, and its dimensions — 250 m (814 ft) long and 130 m (426 ft) wide, with columns of over 17 m (61 ft) in height — are truly majestic. The temple took 700 years to complete and it was Hadrian who finished the task in the second century a.d. One hundred and eight columns originally surrounded an inner sanctum that protected a gold-and-ivory statue of Zeus. Today only 15 are still standing, but their Corinthian capitals have a wonderful form and elegance. In ancient times, the temple sat close to the banks of the River Ilissos creating an even more beautiful vista. Today the river still flows, but its path lies beneath the city.
+At the eastern end of Paradise Island stands a much older structure that offers the opportunity for restful contemplation. The Cloisters are the remains of a 14th-century monastery that was bought in France by Huntingdon Hartford, taken apart, and rebuilt in the grounds of his home, now the Ocean Club hotel. Hartford set the small courtyard on a rise several hundred yards away from the house and created an elaborate garden to lead to the edifice. The Versailles Gardens, based on Louis XIV’s formal palace gardens outside Paris, have terraces, fountains, and statues that provide a soothing vista, leading the eye from the house to the cloisters. It is possible to visit the Cloisters during daylight hours — they stand next to the only road that traverses the island — but they are used regularly for wedding ceremonies, so you might find them closed.
+Farther along the coast road, 8 km (5 miles) past Buenavista del Norte, lies the most westerly point on Tenerife, the Punta de Teno. From here there are panoramic views across to La Gomera and looking south to the massive cliffs of Los Gigantes. Turn back to Buenavista and take a marked turn inland to Masca. Be warned, though, this is absolutely not a drive to be undertaken by inexperienced or nervous drivers. Initially the road, although ascending through the arable mountainside, is no problem; but this soon changes once the entrance to the vertiginous valley is reached. One glance at the narrow, steeply twisting road on either side will be enough to realize why, up to only a ...
+``````
 
-In this picture, we are trying the option ``-h`` and we can see that it printed out all the **matched lines** with the pattern without printing out the filename.
+In this example, we are trying the option ``-h`` and we can see that it printed out all the **matched lines** with the pattern without printing out the filename.
 
-<img width="571" alt="截屏2023-02-09 下午1 48 11" src="https://user-images.githubusercontent.com/114774291/217947385-d5af4e8b-5fa5-4152-beb5-b9cbeaacd62e.png">
+``````terminal
+grep -h "vista" written_2/travel_guides/berlitz2/*.txt
+The Temple of Olympian Zeus is dedicated to Zeus, “king” of the Greek gods. It was imperative that his temple should be fitting for his position, and its dimensions — 250 m (814 ft) long and 130 m (426 ft) wide, with columns of over 17 m (61 ft) in height — are truly majestic. The temple took 700 years to complete and it was Hadrian who finished the task in the second century a.d. One hundred and eight columns originally surrounded an inner sanctum that protected a gold-and-ivory statue of Zeus. Today only 15 are still standing, but their Corinthian capitals have a wonderful form and elegance. In ancient times, the temple sat close to the banks of the River Ilissos creating an even more beautiful vista. Today the river still flows, but its path lies beneath the city.
+At the eastern end of Paradise Island stands a much older structure that offers the opportunity for restful contemplation. The Cloisters are the remains of a 14th-century monastery that was bought in France by Huntingdon Hartford, taken apart, and rebuilt in the grounds of his home, now the Ocean Club hotel. Hartford set the small courtyard on a rise several hundred yards away from the house and created an elaborate garden to lead to the edifice. The Versailles Gardens, based on Louis XIV’s formal palace gardens outside Paris, have terraces, fountains, and statues that provide a soothing vista, leading the eye from the house to the cloisters. It is possible to visit the Cloisters during daylight hours — they stand next to the only road that traverses the island — but they are used regularly for wedding ceremonies, so you might find them closed.
+``````
 
-In this picture, we are trying another specified pattern ``Rocha``, and we can see that, as we expected, it prints out the lines that contained the specified pattern
+In this example, we are trying another specified pattern ``Rocha``, and we can see that, as we expected, it prints out the lines that contained the specified pattern
 
+#### When is it useful?
+The option ``grep -h`` is especially helpful when we are searching for a parttern or word and only cares about their context, do not need its fileName. For instance, if we want to read more about "vista" but do not need to know which file is the output from, then ``grep -h`` is much helpful than ``grep`` since it does not print out the information that we do not need - the file name
 
 ### -c option
 
