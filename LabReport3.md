@@ -261,6 +261,7 @@ The option ``grep -c`` is especially helpful when we want to know about **the ti
 ``````terminal
 grep -w pattern <<fileName>>
 ``````
+
 ``````terminal
 grep -w "Vist" written_2/travel_guides/berlitz2/*.txt
 wushengqi@wushengqideMacBook-Pro docsearch-main % grep -w "Vista" written_2/travel_guides/berlitz2/*.txt
@@ -277,7 +278,6 @@ grep -w "aboun" written_2/travel_guides/berlitz2/*.txt
 
 We can use the picture above to compare the result of this command without ``-w`` option with the result with ``-w`` option. We can see that because there is no **whole word** limitation, it printed out something rather than nothing. So in this comparison, we can see that the ``-w`` constraints the result to only the whole words that contain the pattern.
 
-<img width="569" alt="截屏2023-02-09 下午2 34 23" src="https://user-images.githubusercontent.com/114774291/217954578-9c9b4876-67b6-435c-a4a7-0be903579703.png">
 ``````terminal
 wushengqi@wushengqideMacBook-Pro docsearch-main % grep "Vist" written_2/travel_guides/berlitz2/*.txt
 written_2/travel_guides/berlitz2/Algarve-WhereToGo.txt:Just 3 km (2 miles) down river from Portimão is Praia da Rocha, which became a holiday village for wealthy Portuguese families back at the end of the 19th century. It was “discovered” by the British in the 1930s, when this “beach of rocks,” strewn with extravagantly shaped eroded stacks, provided an inspirational refuge for writers and intellectuals. The belle époque Hotel Bela Vista is a living monument from those days.
