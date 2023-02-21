@@ -293,5 +293,8 @@ grep -w "aboun" written_2/travel_guides/berlitz2/*.txt
 ``````
 In this picture we can see that because there are no whole word that is exactly the same as "abou", it prints out nothing, which is consistant with out expectation.
 
+#### When is it useful?
+The option ``grep -w`` is especially helpful when are certain about the certain that we are searching for or there are other words that contain the pattern but are not our target. For instance, we want to search for the occurence of word "a". If we use ``grep``, then the existence of words like "about, fascinating, began" will certainly be mixed in our result. But if we use ``grep -w`` then we will get the output that only contains the whole word "a", which is consistent with out aim.
+
 #### Source cited
 The most coomand option can be find on <https://www.geeksforgeeks.org/grep-command-in-unixlinux/>
