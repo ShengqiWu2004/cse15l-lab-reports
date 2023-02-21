@@ -261,16 +261,30 @@ The option ``grep -c`` is especially helpful when we want to know about **the ti
 ``````terminal
 grep -w pattern <<fileName>>
 ``````
-<img width="567" alt="截屏2023-02-09 下午2 18 41" src="https://user-images.githubusercontent.com/114774291/217952257-32e475e2-24db-4ce9-8b9d-1780fd92a6c7.png">
+``````terminal
+grep -w "Vist" written_2/travel_guides/berlitz2/*.txt
+wushengqi@wushengqideMacBook-Pro docsearch-main % grep -w "Vista" written_2/travel_guides/berlitz2/*.txt
+written_2/travel_guides/berlitz2/Algarve-WhereToGo.txt:Just 3 km (2 miles) down river from Portimão is Praia da Rocha, which became a holiday village for wealthy Portuguese families back at the end of the 19th century. It was “discovered” by the British in the 1930s, when this “beach of rocks,” strewn with extravagantly shaped eroded stacks, provided an inspirational refuge for writers and intellectuals. The belle époque Hotel Bela Vista is a living monument from those days.
+written_2/travel_guides/berlitz2/Canada-WhereToGo.txt:If you want a view of the whole city and the North Saskatchewan River on your way home, stop off at Vista 33, the observation level of the telephone building.
+written_2/travel_guides/berlitz2/PuertoRico-WhereToGo.txt:High in the hills behind Ponce is Hacienda Buena Vista. To get there, take Route 10, a major north-south artery. The road climbs steeply into dense vegetation and cooler air before you see signs for the hacienda; the climate and environmental conditions here were ideal for the coffee that the plantation began to grow more than 150 years ago. The plantation fell into neglect in the 20th century, but since 1984 it has been returned to its original state by The Conservation Trust of Puerto Rico. Agricultural machinery such as coffee bean huskers can be seen in the original buildings, and the water mill and canals, which harnessed the power of the Canas River, are now in working order. The facility shows how plantations used to operate and offer a fascinating insight into agricultural life in Puerto Rico all those years ago. Advance reservations are required for the tours (see page 64).
+``````
 
-In this picture, we both tried the pattern ``Vist`` and ``Vista``. Because there are no whole word that is the exactly same as "Vist" so we're not printing out anything. However, when we are trying pattern ``Vista`` because we know that it contains words exactly the same as "Vista",results are printed out this time.
+In this example, we both tried the pattern ``Vist`` and ``Vista``. Because there are no whole word that is the exactly same as "Vist" so we're not printing out anything. However, when we are trying pattern ``Vista`` because we know that it contains words exactly the same as "Vista",results are printed out this time.
 
-<img width="568" alt="截屏2023-02-09 下午2 25 05" src="https://user-images.githubusercontent.com/114774291/217953598-e851df69-2479-49ab-b260-279b0bb6b484.png">
+``````terminal
+grep -w "aboun" written_2/travel_guides/berlitz2/*.txt
+``````
 
 We can use the picture above to compare the result of this command without ``-w`` option with the result with ``-w`` option. We can see that because there is no **whole word** limitation, it printed out something rather than nothing. So in this comparison, we can see that the ``-w`` constraints the result to only the whole words that contain the pattern.
 
 <img width="569" alt="截屏2023-02-09 下午2 34 23" src="https://user-images.githubusercontent.com/114774291/217954578-9c9b4876-67b6-435c-a4a7-0be903579703.png">
-
+``````terminal
+wushengqi@wushengqideMacBook-Pro docsearch-main % grep "Vist" written_2/travel_guides/berlitz2/*.txt
+written_2/travel_guides/berlitz2/Algarve-WhereToGo.txt:Just 3 km (2 miles) down river from Portimão is Praia da Rocha, which became a holiday village for wealthy Portuguese families back at the end of the 19th century. It was “discovered” by the British in the 1930s, when this “beach of rocks,” strewn with extravagantly shaped eroded stacks, provided an inspirational refuge for writers and intellectuals. The belle époque Hotel Bela Vista is a living monument from those days.
+written_2/travel_guides/berlitz2/Canada-WhereToGo.txt:If you want a view of the whole city and the North Saskatchewan River on your way home, stop off at Vista 33, the observation level of the telephone building.
+written_2/travel_guides/berlitz2/Poland-History.txt:The region that would become Poland, a great plain sandwiched between the Vistula and Odra rivers, has been inhabited since the Stone Age by migratory tribal peoples — among them Celts, Balts, Huns, Slavs and Mongols. Tribal culture reigned, untouched by the more sophisticated civilization of the Roman Empire. Slavic tribes arrived by the eighth century a.d. and put down roots; the •lezanie, Mazowszanie, Pomorzanie and Wislanie peoples inhabited much of the territory. The Polonian tribe, which settled the area that today is western Poland around Poznan, provided the foundations for the development of a Polish language and nation. 
+written_2/travel_guides/berlitz2/PuertoRico-WhereToGo.txt:High in the hills behind Ponce is Hacienda Buena Vista. To get there, take Route 10, a major north-south artery. The road climbs steeply into dense vegetation and cooler air before you see signs for the hacienda; the climate and environmental conditions here were ideal for the coffee that the plantation began to grow more than 150 years ago. The plantation fell into neglect in the 20th century, but since 1984 it has been returned to its original state by The Conservation Trust of Puerto Rico. Agricultural machinery such as coffee bean huskers can be seen in the original buildings, and the water mill and canals, which harnessed the power of the Canas River, are now in working order. The facility shows how plantations used to operate and offer a fascinating insight into agricultural life in Puerto Rico all those years ago. Advance reservations are required for the tours (see page 64).
+``````
 In this picture we can see that because there are no whole word that is exactly the same as "abou", it prints out nothing, which is consistant with out expectation.
 
 #### Source cited
