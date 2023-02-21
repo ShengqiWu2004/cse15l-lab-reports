@@ -82,13 +82,175 @@ The option ``grep -h`` is especially helpful when we are searching for a partter
 ``````terminal
 grep -c pattern <<fileName>>
 ``````
-<img width="567" alt="截屏2023-02-09 下午1 40 05" src="https://user-images.githubusercontent.com/114774291/217946344-ea902b66-066a-46b4-8af0-b2eaa3c16ad6.png">
+``````terminal
+grep -c "Vista" written_2/travel_guides/berlitz2/*.txt
+written_2/travel_guides/berlitz2/Algarve-History.txt:0
+written_2/travel_guides/berlitz2/Algarve-Intro.txt:0
+written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Algarve-WhereToGo.txt:1
+written_2/travel_guides/berlitz2/Amsterdam-History.txt:0
+written_2/travel_guides/berlitz2/Amsterdam-Intro.txt:0
+written_2/travel_guides/berlitz2/Amsterdam-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Amsterdam-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Athens-History.txt:0
+written_2/travel_guides/berlitz2/Athens-Intro.txt:0
+written_2/travel_guides/berlitz2/Athens-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Athens-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Bahamas-History.txt:0
+written_2/travel_guides/berlitz2/Bahamas-Intro.txt:0
+written_2/travel_guides/berlitz2/Bahamas-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Bali-History.txt:0
+written_2/travel_guides/berlitz2/Bali-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Bali-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Barcelona-History.txt:0
+written_2/travel_guides/berlitz2/Barcelona-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Barcelona-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Beijing-History.txt:0
+written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Beijing-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Berlin-History.txt:0
+written_2/travel_guides/berlitz2/Berlin-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Berlin-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Bermuda-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Bermuda-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Bermuda-history.txt:0
+written_2/travel_guides/berlitz2/Boston-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Budapest-History.txt:0
+written_2/travel_guides/berlitz2/Budapest-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Budapest-WhereoGo.txt:0
+written_2/travel_guides/berlitz2/California-History.txt:0
+written_2/travel_guides/berlitz2/California-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/California-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Canada-History.txt:0
+written_2/travel_guides/berlitz2/Canada-WhereToGo.txt:1
+written_2/travel_guides/berlitz2/CanaryIslands-History.txt:0
+written_2/travel_guides/berlitz2/CanaryIslands-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/CanaryIslands-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Cancun-History.txt:0
+written_2/travel_guides/berlitz2/Cancun-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/China-History.txt:0
+written_2/travel_guides/berlitz2/China-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/China-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Costa-History.txt:0
+written_2/travel_guides/berlitz2/Costa-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Costa-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/CostaBlanca-History.txt:0
+written_2/travel_guides/berlitz2/CostaBlanca-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Crete-History.txt:0
+written_2/travel_guides/berlitz2/Crete-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Crete-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/CstaBlanca-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Cuba-History.txt:0
+written_2/travel_guides/berlitz2/Cuba-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Cuba-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Nepal-History.txt:0
+written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Nepal-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/NewOrleans-History.txt:0
+written_2/travel_guides/berlitz2/Paris-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Paris-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Poland-History.txt:0
+written_2/travel_guides/berlitz2/Poland-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Portugal-History.txt:0
+written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/PuertoRico-History.txt:0
+written_2/travel_guides/berlitz2/PuertoRico-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/PuertoRico-WhereToGo.txt:1
+written_2/travel_guides/berlitz2/Vallarta-History.txt:0
+written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:0
+``````
 
-In this picture we are trying out the ``-c`` option. We can see that it listed all the files in the given relative path and showed the number of matching patterns within the file. For instance, we can see that in ``WhereToGo.txt``, there is 1 matching, which is consistance with the result when we are trying the "-l" command for the same realtive path.
+In this example we are trying out the ``-c`` option. We can see that it listed all the files in the given relative path and showed the number of matching patterns within the file. For instance, we can see that in ``WhereToGo.txt``, there is 1 matching, which is consistance with the result when we are trying the "-l" command for the same realtive path.
+``````terminal
+grep -c "Rocha" written_2/travel_guides/berlitz2/*.txt
+written_2/travel_guides/berlitz2/Algarve-History.txt:0
+written_2/travel_guides/berlitz2/Algarve-Intro.txt:1
+written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Algarve-WhereToGo.txt:7
+written_2/travel_guides/berlitz2/Amsterdam-History.txt:0
+written_2/travel_guides/berlitz2/Amsterdam-Intro.txt:0
+written_2/travel_guides/berlitz2/Amsterdam-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Amsterdam-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Athens-History.txt:0
+written_2/travel_guides/berlitz2/Athens-Intro.txt:0
+written_2/travel_guides/berlitz2/Athens-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Athens-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Bahamas-History.txt:0
+written_2/travel_guides/berlitz2/Bahamas-Intro.txt:0
+written_2/travel_guides/berlitz2/Bahamas-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Bali-History.txt:0
+written_2/travel_guides/berlitz2/Bali-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Bali-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Barcelona-History.txt:0
+written_2/travel_guides/berlitz2/Barcelona-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Barcelona-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Beijing-History.txt:0
+written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Beijing-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Berlin-History.txt:0
+written_2/travel_guides/berlitz2/Berlin-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Berlin-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Bermuda-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Bermuda-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Bermuda-history.txt:0
+written_2/travel_guides/berlitz2/Boston-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Budapest-History.txt:0
+written_2/travel_guides/berlitz2/Budapest-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Budapest-WhereoGo.txt:0
+written_2/travel_guides/berlitz2/California-History.txt:0
+written_2/travel_guides/berlitz2/California-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/California-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Canada-History.txt:0
+written_2/travel_guides/berlitz2/Canada-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/CanaryIslands-History.txt:0
+written_2/travel_guides/berlitz2/CanaryIslands-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/CanaryIslands-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Cancun-History.txt:0
+written_2/travel_guides/berlitz2/Cancun-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/China-History.txt:0
+written_2/travel_guides/berlitz2/China-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/China-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Costa-History.txt:0
+written_2/travel_guides/berlitz2/Costa-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Costa-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/CostaBlanca-History.txt:0
+written_2/travel_guides/berlitz2/CostaBlanca-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Crete-History.txt:0
+written_2/travel_guides/berlitz2/Crete-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Crete-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/CstaBlanca-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Cuba-History.txt:0
+written_2/travel_guides/berlitz2/Cuba-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Cuba-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Nepal-History.txt:0
+written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Nepal-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/NewOrleans-History.txt:0
+written_2/travel_guides/berlitz2/Paris-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Paris-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Poland-History.txt:0
+written_2/travel_guides/berlitz2/Poland-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Portugal-History.txt:0
+written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt:3
+written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt:6
+written_2/travel_guides/berlitz2/PuertoRico-History.txt:0
+written_2/travel_guides/berlitz2/PuertoRico-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/PuertoRico-WhereToGo.txt:0
+written_2/travel_guides/berlitz2/Vallarta-History.txt:0
+written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt:0
+written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:0
+``````
 
-<img width="571" alt="截屏2023-02-09 下午1 47 34" src="https://user-images.githubusercontent.com/114774291/217947345-df99967a-ad50-4764-a1f6-aafda0574cac.png">
+In this example, we are trying out the ``-c`` command with another specified pattern ``Rocha`` and we can see that it prints out the number of occurance of the word for Rocha in each ``.txt`` file
 
-In this picture, we are trying out the ``-c`` command with another specified pattern ``Rocha`` and we can see that it prints out the number of occurance of the word for Rocha in each ``.txt`` file
+#### When is it useful?
+The option ``grep -c`` is especially helpful when we want to know about **the times of occurence** of a word in the files. ``grep`` only prints out the matched lines along with its file name, while ``grep -c`` will print out the occurence of a pattern in each file. For instance, we want to learn more about "Rocha" and want to find a file that have the most occurences of "Rocha" so that we can read it, ``grep -c`` can give you information that ``written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt`` have the most occurence of "Rocha" but ``grep`` cannot give you this information
 
 
 ### -w option
