@@ -6,11 +6,13 @@
 
 You should delete each repository seperately. First click on the title of the repository. For instance, ``lab3`` and then click on <Setting> and then scroll down to see the button <Delete this respository> and then type down the line to confirm deletion.
 
+
 #### Step 2: Setup
 
 ##### Fork the repository
 
 You should first click on the link for the repository <https://github.com/ucsd-cse15l-w23/lab7> and then click on the button <fork> and then click on the button <create fork> to confirm forking the respository.
+  
 
 #### Step 3: The real Deal
 
