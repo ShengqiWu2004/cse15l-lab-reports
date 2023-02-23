@@ -41,6 +41,9 @@ Key Pressed: `<Command C><Command V><enter>`
 
 We could pre-save the url for your own fork of repository <[git@github.com](mailto:git@github.com):ShengqiWu2004/lab7.git> so when doing the tournament, we only need to copy and paste. It will increase out speed.
 
+![Step5](https://user-images.githubusercontent.com/114774291/221043146-20d963f7-f102-42d8-b376-f97b5734a023.jpeg)
+
+  
 #### Step 6
 
 ##### Run the tests, demonstrating that they fail
@@ -49,6 +52,7 @@ Key pressed: `cd l<tab>` ,` <Command C><Command V><enter>`, `<Command C><Command
 
 First, we should use `cd lab7/` to change our current directory to the directory lab7 ``<Tab>`` will autofill ``lab7/`` for us. Since I stored the`` javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`` for compiling Junit and ``java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`` for running Junit in a notebook, I could only press `<Comand C><Command V><enter>` to achieve the goal.
 
+![Step6](https://user-images.githubusercontent.com/114774291/221043170-cf2cd4ea-4c47-4330-ba98-5a9c243c8e07.jpeg)
 
 
 #### Step 7
@@ -68,7 +72,9 @@ First, we should use ``nano ListExamples.java`` to take a look at ListExamples.j
 
 Key Pressed:` <up><up><up><enter>`,`<up><up><up><enter>`
 
-The ``javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`` command was 3 up in the search history, so I used up arrow to access it. Then the ``java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`` command was 3 up in the history, so I accessed and ran it. 
+The ``javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`` command was 3 up in the search history, so I used up arrow to access it. Then the ``java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`` command was 3 up in the history, so I accessed and ran it.
+  
+![Step8](https://user-images.githubusercontent.com/114774291/221043204-26eb04f0-d387-474d-8ab5-7d0df3dbaafa.jpeg)
 
 #### Step 9
 
@@ -81,3 +87,5 @@ We could use ``git add `` to store the changes we just made to ``ListExamples.ja
 Then we could use ``git commit -m`` to commit our changes to the repository. We could use the ``com<Tab>`` to autofill for the command ``commit``
 
 Then we could use the command ``git push original main`` to push our commitment to the repository. We could use `<Tab>` to fill for ``original`` and ``main`` to save some time.
+
+![Step9](https://user-images.githubusercontent.com/114774291/221043290-863321ff-0582-467c-9be4-abbc0ca86eb6.jpeg)
