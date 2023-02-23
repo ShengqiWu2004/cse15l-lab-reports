@@ -31,6 +31,8 @@ Key Pressed: `<Command C><Command V><enter>`
 
 After copy and paste the ``ssh cs15lwi23ahr@ieng6.ucsd.edu`` command, it will log into the ieng6 account and there will be no more prompt for ssh key because we have just authorized to skip the process. We can store the ssh command previously in a notebook to speed up!
 
+![Step3](https://user-images.githubusercontent.com/114774291/221042783-d17477d1-834b-49b7-831b-e517a5297df0.jpeg)
+
 #### Step 5
 
 ##### Clone your fork of the repository from your Github account
@@ -57,6 +59,9 @@ Key Pressed: `nano L<tab>java<enter>`, `<down><right><delete><delete>`,`<down><l
 
 First, we should use ``nano ListExamples.java`` to take a look at ListExamples.java and then dele the ``0,`` and change the last appearance of ``index1`` to ``index2``. Then we should press `<Control O>` and ``enter``to save the changes. and press `<Control X> ` to exit the page. 
 
+![Step7](https://user-images.githubusercontent.com/114774291/221042896-f2621e0e-ec61-4b80-8f04-58a0139df1e6.jpeg)
+
+  
 #### Step 8
 
 ##### Run the tests, demonstrating that they now succeed
