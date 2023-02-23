@@ -52,7 +52,7 @@ Key pressed: `cd l<tab>` ,` <Command C><Command V><enter>`, `<Command C><Command
 
 First, we should use `cd lab7/` to change our current directory to the directory lab7 ``<Tab>`` will autofill ``lab7/`` for us. Since I stored the`` javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`` for compiling Junit and ``java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`` for running Junit in a notebook, I could only press `<Comand C><Command V><enter>` to achieve the goal.
 
-![Step6](https://user-images.githubusercontent.com/114774291/221043170-cf2cd4ea-4c47-4330-ba98-5a9c243c8e07.jpeg)
+![Step6](https://user-images.githubusercontent.com/114774291/221044518-76d75557-a543-430b-8718-104e40a36939.jpeg)
 
 
 #### Step 7
