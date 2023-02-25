@@ -28,6 +28,7 @@ You should first click on the link for the repository <https://github.com/ucsd-c
 ##### Start the timer!
   
 Key Pressed: ``<Start>``
+  
 You can search for "stop watch" in google
 
 ![Timer](https://user-images.githubusercontent.com/114774291/221374838-f9ef7196-6390-4759-bfbf-6c1a01e3b1d4.jpeg)
