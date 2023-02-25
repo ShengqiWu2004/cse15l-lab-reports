@@ -5,6 +5,10 @@
 ##### **Setup** Delete any existing forks of the repository you have on your account
 
 You should delete each repository seperately. First click on the title of the repository. For instance, ``lab3`` and then click on <Setting> and then scroll down to see the button <Delete this respository> and then type down the line to confirm deletion.
+You can delete a repository in your online account using the following command.
+``````terminal
+rm -rf lab7/
+``````
 
 ![Step1](https://user-images.githubusercontent.com/114774291/221041414-f978c2c6-00cb-402f-8406-07e1d6e83d38.jpeg)
 
@@ -22,6 +26,12 @@ You should first click on the link for the repository <https://github.com/ucsd-c
 #### Step 3: The real Deal
 
 ##### Start the timer!
+  
+Key Pressed: ``<Start>``
+You can search for "stop watch" in google
+
+![Timer](https://user-images.githubusercontent.com/114774291/221374838-f9ef7196-6390-4759-bfbf-6c1a01e3b1d4.jpeg)
+
 
 #### Step 4
 
@@ -43,7 +53,7 @@ We could pre-save the url for your own fork of repository <[git@github.com](mail
 
 ![Step5](https://user-images.githubusercontent.com/114774291/221043146-20d963f7-f102-42d8-b376-f97b5734a023.jpeg)
 
-  
+
 #### Step 6
 
 ##### Run the tests, demonstrating that they fail
